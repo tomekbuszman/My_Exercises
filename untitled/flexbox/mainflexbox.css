@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+.container {
+    display: flex;
+    height:100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:95vw;
+    margin: auto;
+    padding: inherit;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+.box {
+    background-color: red;
+    width: 20vw;
+    height: 25vh;
+    flex-direction: row;
+    border: 5px solid black;
+    display: flex;
+}
+
